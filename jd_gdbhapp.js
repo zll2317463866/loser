@@ -1,8 +1,10 @@
 /*
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 软件名：果冻宝盒
-下载链接：http://sd.bhrax.com/inviter/uappjb?userid=5806526
-感谢注册填写邀请码：75P83C
+------
+下载链接：http://sd.bhrax.com/inviter/mBKy88?userid=4936428
+------
+注册填写邀请码：75P83C
 gdhbPhone:果冻宝盒手机号
 export gdhbPhone='果冻宝盒手机号'
 new Env('果冻宝盒');
