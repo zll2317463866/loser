@@ -5,6 +5,7 @@
 感谢注册填写邀请码：75P83C
 gdhbPhone:果冻宝盒手机号
 export gdhbPhone='果冻宝盒手机号'
+new Env('果冻宝盒');
 */
 
 // [task_local]
