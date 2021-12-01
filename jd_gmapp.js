@@ -1,4 +1,5 @@
 /*
+new Env('国迈');
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 注册地址：https://shanxixincensm.com/#/register
 需要实名认证后绑定支付宝
