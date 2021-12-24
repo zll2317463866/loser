@@ -1,6 +1,6 @@
 /*
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
-软件名：果冻宝盒
+软件名： 果冻宝盒
 ------
 下载链接：http://sd.bhrax.com/inviter/mBKy88?userid=4936428
 ------
