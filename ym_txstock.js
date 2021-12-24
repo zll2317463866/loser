@@ -46,7 +46,9 @@ https://wzq.tenpay.com/cgi-bin/activity_task_daily.fcgi? url script-request-head
 hostname = wzq.tenpay.com
 
 */
-'Env = new Env("腾讯自选股")'
+
+const jsname = '腾讯自选股'
+const $ = Env(jsname)
 const notifyFlag = 1; //0为关闭通知，1为打开通知,默认为1
 
 const notify = $.isNode() ? require('./sendNotify') : '';
