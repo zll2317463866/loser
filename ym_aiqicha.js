@@ -1,7 +1,8 @@
 /*
-0 0 0/5 * * ?
+0 0 0/5 * * *
  爱企查下载地址：https://aiqicha.baidu.com/m/usercenter/inviteCode?uid=xlTM-TogKuTwvdzTq9EFdGvdxrmJpAANFgmd
 
+有电脑的用电脑抓，10秒钟的事，教程csdn上一大堆，自己去看吧
  手动抓取CK:https://passport.baidu.com/v2/?login
  一个BDUSS=xxxxx;就行了
  建议每5个小时执行一次 要不然跑不完 可能有一些任务跑不完 如:高级搜索 浏览监控日报 属正常现象 (百度抽风)
