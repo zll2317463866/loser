@@ -1,5 +1,4 @@
 /*
-@萝卜
 小程序：滴滴出行 （5天种水果）
 入口：小程序首页=> 5天种水果。
 需要手动完成新手任务。
@@ -15,8 +14,8 @@ https://gitee.com/xiecoll/radish-script/raw/master/ddgy.js
 多账号用 @ 隔开
 export ddgyurl = 'https://game.xiaojukeji.com/api/game/mission/get?.........@https://game.xiaojukeji.com/api/game/mission/get?.........' 
 抓包 https://game.xiaojukeji.com/api/game/mission/get?... """整条url
-拉取脚本
-ql raw https://gitee.com/xiecoll/radish-script/raw/master/ddgy.js
+
+抓的变量一定要填写在环境变量里，不要写在配置文件，因为面板原因，各版本都不同，最好写在环境变量里，写在配置文件里可能会出现0ck现象
 */
 
 const $ = new Env('滴滴果园');
