@@ -1,10 +1,10 @@
 /*
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 软件名：追追看点 苹果商店搜索即可
-[rewrite_local]
-http://www.xiancao.cool/api/user/indexInfo url script-request-header https://gitee.com/gossh520/script/raw/master/zzkdapp.js
 ##点我的即可获取获取数据##
 nodejs变量
+抓包带下面这几个参数的就可以
+一天5毛
 export zzkdhd='{"Authorization":"", "User-Agent":"", "JSESSIONID":"", "Cookie":""}'
 多账号用@隔开
 ============Quantumultx===============
