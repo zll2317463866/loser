@@ -4,6 +4,7 @@
 ##点我的即可获取获取数据##
 nodejs变量
 抓包带下面这几个参数的就可以
+抓www.xiancao.cool这个路径下的
 一天5毛
 export zzkdhd='{"Authorization":"", "User-Agent":"", "JSESSIONID":"", "Cookie":""}'
 多账号用@隔开
