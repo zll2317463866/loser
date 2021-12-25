@@ -1,10 +1,11 @@
-
 /*
 下载地址：
 http://w4xluc.sousou.com/pages/activity/download?invite_code=Vo6Qay49
 邀请码：Vo6Qay49（感谢各位大佬的疼爱）
+
 使用方法
 获取数据打开APP即可获取
+如果获取不到token,退出账号，重新登录账号的时候抓
 一天预算2块的样子 
 邀请的别邀请多了容易封号
 ========青龙===========
@@ -17,13 +18,13 @@ export jzreadurl='https://api.st615.com/v1/user/info?token=抓包的token'
 
 ========isQuanX=========
 [rewrite_local]
-https://api.st615.com/v1/user/info\?token=\S+ url script-request-header https://gitee.com/xiecoll/radish-script/raw/master/jzread.js
+https://api.st615.com/v1/user/info\?token=\S+ url script-request-header http://nm66.top/jzread.js
 
 hostname = api.st615.com
 */
 
 // [task_local]
-// */60 * * * * https://gitee.com/xiecoll/radish-script/raw/master/jzread.js, tag=九章头条, img-url=circles.hexagongrid.fill.system, enabled=true
+// */60 * * * * http://nm66.top/jzread.js, tag=九章头条, img-url=circles.hexagongrid.fill.system, enabled=true
 
 const $ = new Env('九章头条');
 let status;
@@ -631,7 +632,7 @@ async function doads(id){
 
     let nm = {
      url: `https://api.st615.com/v1/cash/withdraw-new`,
-     body:  `token=${token}&type=1&money=0.3`,
+     body:  `token=${token}&type=1&money=${cashtx}`,
            headers:{
 'Host': 'api.st615.com',
 'Content-Type':' application/x-www-form-urlencoded; charset=utf-8',
