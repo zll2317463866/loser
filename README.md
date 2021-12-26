@@ -5,15 +5,31 @@
 
 fork了直接删库跑路，或者私有！
 
-
+  
 低调使用，禁止fork！！！
 
 
-不接受任何赞赏！！！
+ 不接受任何赞赏！！！
 
 
 
-群号：832563280
+<B>群号：832563280<B>
 
 
-频道:https://t.me/+pellEgrbUethMGZl
+<B>频道:https://t.me/+pellEgrbUethMGZl<B>
+
+<h1>一、青龙面板拉库指令</h1>
+第一次拉取<br>
+这个拉取完毕后就删除定时任务
+
+    ql repo https://github.com/zll2317463866/loser.git "" "index|HT.*|sendNotify" "HT.*|sendNotify"
+
+
+第二次拉取<br>
+拉取完成后，修改拉库指令，确保HT_account.py不被覆盖，更改拉库命令，命令如下
+  
+      ql repo https://github.com/Mashiro2000/HeyTapTask.git "" "index|HT.*|sendNotify" "HT_config|sendNotify"
+  
+  定时0 9 * * *<br>
+这个保留
+
