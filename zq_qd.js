@@ -6,6 +6,7 @@
 抓包方法：stream作为例子
  https://kandian.wkandian.com/v17/NewTask/getTaskList.json
  抓此链接Header里的Cookie填入环境变量即可起飞
+ 多账号&隔开
 
 中青看点
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
@@ -65,6 +66,7 @@ Object.keys(zqqdbodys).forEach((item) => {
             $.message = ""
             zqqdbody1 = zqqdbodyArr[k];
             console.log(`--------账号 ${k+1} 签到任务执行中--------\n`)
+			   console.log(`--------叼毛起飞--------\n`)
             await jcqd()
                 await $.wait(1000);
             console.log("\n\n")
@@ -121,7 +123,7 @@ function jcqd(timeout = 0) {
                 if(result.success == true){
                     console.log('\n签到成功，获得：'+result.items.score +'金币')
                 }else{
-                    console.log('\n今日已签到，明天再来吧^_^')
+                    console.log('\n吊毛你都签到过了，再撸黑你号！^_^')
                 }
             } catch (e) {
             } finally {
