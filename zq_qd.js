@@ -1,4 +1,12 @@
 /*
+感谢邀请码，十分感谢
+58015428
+
+
+抓包方法：stream作为例子
+ https://kandian.wkandian.com/v17/NewTask/getTaskList.json
+ 抓此链接Header里的Cookie填入环境变量即可起飞
+
 中青看点
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 ============Quantumultx===============
