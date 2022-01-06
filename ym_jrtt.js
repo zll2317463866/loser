@@ -25,8 +25,8 @@ hostname = *.toutiaoapi.com
 青龙把极速版捉包里面的cookie放到jrttjsbHeader里，多账户用@隔开
 */
 
-const jsname = '今日头条极速版'
-const $ = Env(jsname)
+const jsname ='今日头条极速版'
+const $ = Env (jsname)
 const notifyFlag = 1; //0为关闭通知，1为打开通知,默认为1
 const logDebug = 0
 
