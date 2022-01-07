@@ -1,8 +1,9 @@
 /*
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 软件名：聚看点
-下载地址:http://a.app.qq.com/o/simple.jsp?ctx=1638082481021&pkgname=com.xiangzi.jukandian&ckey=CK1416436838701
+
 邀请码必填得金币：24550654
+
 [rewrite_local]
 https://www.xiaodouzhuan.cn/jkd/weixin20/member/code.jsp? url script-request-header https://gitee.com/gossh520/script/raw/master/jkdapp.js
 hostname = www.xiaodouzhuan.cn
